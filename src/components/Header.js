@@ -5,17 +5,16 @@ import data from '../yourdata';
 import styled from 'styled-components';
 
 const TextHoverUnderStanding = styled.text`
-    background:#e9f4fc;
+
     :hover{
-        background: #80ccff;
+        background: red;
         cursor: pointer;
     }
 `;
 
 const TextHoverInteraction= styled.text`
-    background: #ffebe6 ;
     :hover {
-        background:#ff9999;
+        background:blue;
         cursor: pointer;
     }
 `;
