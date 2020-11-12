@@ -11,7 +11,7 @@ class Work extends Component {
         return (
         <div className='work'>
         <div className="work-container">
-        <h1 style={{marginLeft:"1em",fontSize: "65px"}} className='heading'>
+        <h1 style={{marginLeft:"1em",fontSize: "65px", fontWeight: "lighter"}} className='heading'>
         <Fade left cascade>Work.</Fade></h1>
         <div className='work-content'>
                 {data.projects.map((project)=>(
