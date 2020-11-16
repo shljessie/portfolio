@@ -2,7 +2,7 @@ export default
     {
         name :'Jessie Lee Portfolio',
         headerTagline: [
-                        'I want to innovate',
+                        'Aspiring to Reinvent',
                         'the way we ','Understand Information',
                         'and ','Interact with Data'
                         ],
