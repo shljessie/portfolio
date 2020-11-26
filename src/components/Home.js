@@ -2,7 +2,9 @@ import React, { Component, useState } from 'react';
 
 import Fade from 'react-reveal/Fade';
 import Header from './Header';
+import { Lazy }from '../plot/Lazy'
 import Navbar from './Navbar';
+import { ScatterBoard } from '../plot/ScatterBoard'
 import data from '../yourdata';
 import styled from 'styled-components';
 
@@ -33,7 +35,6 @@ class Home extends Component {
           </header>
           <Fade left cascade>
             <div className="header-title-container">
-            <img></img>
                 <p className='header-title'>
                     {data.headerTagline[0]}<br></br>
                     {data.headerTagline[1]}
@@ -46,6 +47,8 @@ class Home extends Component {
                       <TextHoverInteraction>{data.headerTagline[4]}</TextHoverInteraction>
                     </a>
                     <br></br>
+                    <div>
+                    </div>
                 </p>
             </div>
           </Fade>
