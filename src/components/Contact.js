@@ -8,14 +8,13 @@ class Contact extends Component {
     currentPage ="contactPage";
     render() { 
         return (  
-        <div className='contact'>
-        <div>
+        <div className="contact">
         <h1 style= {{fontWeight: "lighter"}}>
             <Fade bottom cascade> Contact.</Fade>
         </h1>
         <Fade bottom>
         <div className='contact-content'>
-                <ul style={{top:"10em"}}>
+                <ul style={{top:"10em", width: 'fit-content'}}>
                     {data.social.map((link,index)=>(
                         <li style={{fontSize: "30px", marginBottom:"140px", fontWeight: "lighter"}}key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
                     ))}   
@@ -33,7 +32,6 @@ class Contact extends Component {
         <br/>
         <br/>
 
-        </div>
         </div>);
     }
 }

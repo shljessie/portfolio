@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 
 import Fade from 'react-reveal/Fade';
 import Project from './project';

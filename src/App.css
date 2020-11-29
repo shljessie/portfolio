@@ -1,11 +1,11 @@
 
 body{
   font-size: 16px;
-  background:	 #000000;
+  background:	 white;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   z-index: 1;
-  color: #f2f2f2;
+  color: black;
 }
 .App {
   text-align: center;
@@ -15,21 +15,18 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   top:2em;
+  margin-left: 15%;
 }
 header{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 header h1{
-font-size: 1em;
+font-size: 0.5em;
 font-weight: 400;  
 padding-top: 2em;
 padding-bottom: 2em;
-margin-right: 67em;
 }
 
 nav{
@@ -49,7 +46,7 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color: #f2f2f2;
+  color: black;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
@@ -62,7 +59,7 @@ li .link:hover{
   opacity: 1;
 }
 .active{
-  color:#f2f2f2;
+  color:royalblue;
   opacity: 1;
 }
 .header-title{
@@ -76,12 +73,13 @@ li .link:hover{
 
 .about{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .about-content{
   position: relative;
   left:13em;
-  color:#f2f2f2;
+  color:#black;
+  width: fit-content;
 }
 .about-content h1{
   font-family: 'Roboto', sans-serif;
@@ -133,7 +131,7 @@ li .link:hover{
 }
 
 .contact .email{
-  color:#f2f2f2;
+  color:black;
   font-size: 2em;
 }
 .contact li{
@@ -145,7 +143,7 @@ li .link:hover{
 }
 .contact li a{
   text-decoration: none;
-  color:#f2f2f2;
+  color:black;
 }
 .footer{
   position: relative;
@@ -154,7 +152,7 @@ li .link:hover{
 }
 .footer a{
   text-decoration: none;
-  color: #f2f2f2;
+  color: black;
 }
 
 
@@ -292,10 +290,14 @@ nav{
 width: 30em;  
 height: 30em;
 }
-
+.react-reveal{
+  width:fit-content
+}
 .contact{
   top:15em;
   left:6em;
+  width: fit-content;
+  margin: 0px;
 }
 .contact h1{
   font-size: 4em;

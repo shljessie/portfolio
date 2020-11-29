@@ -1,11 +1,10 @@
-import React, { Component, makeStyles, useState } from 'react';
+import React, { Component } from 'react';
 
 import Fade from 'react-reveal/Fade';
 import Header from './Header';
 import Navbar from './Navbar';
 import data from '../yourdata';
 import styled from 'styled-components';
-import theme from '../theme'
 
 const TextHoverUnderStanding = styled.text`
     :hover{
@@ -29,12 +28,12 @@ class Home extends Component {
         <Navbar></Navbar>
         <div className="App-header">
         <Header setPage="homepage">
-          <div>
+          <div className="about-content">
           <header>
               <h1><Fade top cascade>{data.name}</Fade></h1>
           </header>
           <Fade left cascade>
-            <div className="header-title-container">
+            <div className="about">
                 <p className='header-title'>
                     {data.headerTagline[0]}<br></br>
                     {data.headerTagline[1]}
