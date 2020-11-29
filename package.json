@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "d3": "^6.2.0",
     "legendary-cursor": "^1.0.2",
@@ -11,9 +12,11 @@
     "react-dom": "^16.8.6",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
+    "react-scatter-board": "maayanlab/react-scatter-board",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.12",
     "styled-components": "^5.2.0",
+    "typescript": "^4.1.2",
     "underscore": "^1.12.0"
   },
   "scripts": {

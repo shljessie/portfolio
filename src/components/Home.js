@@ -1,12 +1,11 @@
-import React, { Component, useState } from 'react';
+import React, { Component, makeStyles, useState } from 'react';
 
 import Fade from 'react-reveal/Fade';
 import Header from './Header';
-import { Lazy }from '../plot/Lazy'
 import Navbar from './Navbar';
-import { ScatterBoard } from '../plot/ScatterBoard'
 import data from '../yourdata';
 import styled from 'styled-components';
+import theme from '../theme'
 
 const TextHoverUnderStanding = styled.text`
     :hover{
@@ -23,6 +22,7 @@ const TextHoverInteraction= styled.text`
 class Home extends Component {
   state = {
   }
+  
   render() {
     return(
       <div className="App-header-container">
@@ -46,6 +46,7 @@ class Home extends Component {
                     <a href="#" data-text="understanding">
                       <TextHoverInteraction>{data.headerTagline[4]}</TextHoverInteraction>
                     </a>
+                  
                     <br></br>
                     <div>
                     </div>
